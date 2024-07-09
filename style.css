@@ -44,7 +44,7 @@
     background-color: white;
 
     box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
+    border: 2px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
 
@@ -115,3 +115,287 @@
     
 }
 /* Banner section End */
+
+/* TODO: why-container section Start */
+
+#why-container{
+    /* BOOKMARK: */
+    /* background-color:rgba(13, 19, 33, 0.02); */
+    width: 90%;
+    height: 1150px;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+
+#why-container .why-content{
+/* BOOKMARK: */
+    background-color:rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    /* background-color: yellow; */
+    width: 90%;
+    height: 1150px;
+
+    margin: 0 auto;
+    padding: 0px 47px 0px 47px;
+    /* margin-top: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TODO: First */
+.why-content .why-first{
+    /* width: 850px; */
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 80px;
+}
+.why-content .why-first  h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.why-content .why-first p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    padding: 0 30px;
+}
+
+/* TODO: Second */
+
+.why-content .why-second{
+    margin-top: 50px;
+    /* background-color: blueviolet; */
+    background-color: white;
+    border-radius: 15px;
+    
+        
+    /* width: 850px; */
+    width: 70%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.why-content .why-second .content-left{
+    /* background-color: green; */
+    /* margin-top: 30px; */
+    width: 55%
+    
+    
+    
+    
+}
+
+.why-second .content-left h3{
+    margin-top: 38px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.why-second .content-left p{
+    margin-top: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    padding-left: 30px;
+}
+
+.why-second .content-left .learn-button{
+
+    margin-top: 44px;
+    width: 145px;
+    height: 47px;
+    background-color: white;
+    /* color: rgb(13, 19, 33); */
+    /* border: 2px solid rgb(13, 19, 33); */
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 28px;
+
+
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+.why-content .why-second .content-right img{
+    /* height: 20px; */
+    /* background-color: red; */
+    padding-right: 40px;
+    /* padding-right: 40px; */
+
+    /* width: 259.56px;
+    height: 217.01px; */
+}
+
+
+    /* TODO: Third */
+
+
+        .why-content .why-third{
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 15px;
+         /* background-color: blue; */
+         
+        /* width: 850px; */
+        width: 70%;
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .why-content .why-third .content-right{
+        /* background-color: green; */
+        /* margin-top: 30px; */
+        width: 55%
+        
+        
+    }
+
+
+    .why-third .content-right h3{
+        margin-top: 38px;
+        color: rgba(13, 19, 33, 0.7);
+        font-size: 24px;
+        font-weight: 700;
+        /* padding-left: 30px; */
+        /* background-color: red; */
+    }
+
+
+    .why-third .content-right p{
+        margin-top: 16px;
+        color: rgb(13, 19, 33);
+        opacity: 0.7;
+
+        font-size: 16px;
+        font-weight: 400;
+
+        /* padding-left: 30px; */
+        /* background-color: red; */
+    }
+
+
+.why-third .content-right .learn-button{
+        /* background-color: red; */
+
+    margin-top: 44px;
+    width: 145px;
+    height: 47px;
+    background-color: white;
+    /* background-color: rgb(186, 44, 44); */
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 600;
+    /* margin-left: 28px; */
+
+
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+
+.why-content .why-third .content-left img{
+    /* height: 20px; */
+    /* background-color: red; */
+    /* padding-right: 40px; */
+    /* padding-right: 40px; */
+
+    /* width: 259.56px;
+    height: 217.01px; */
+}
+
+/* TODO: Fourth */
+
+
+.why-content .why-fourth{
+    margin-top: 50px;
+    /* background-color: blueviolet; */
+    background-color: white;
+    border-radius: 15px;
+        
+    /* width: 850px; */
+    width: 70%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.why-content .why-fourth .content-left{
+    /* background-color: green; */
+    /* margin-top: 30px; */
+    width: 55%
+    
+    
+    
+    
+}
+
+.why-fourth .content-left h3{
+    margin-top: 38px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.why-fourth .content-left p{
+    margin-top: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    padding-left: 30px;
+}
+
+.why-fourth .content-left .learn-button{
+
+    margin-top: 44px;
+    width: 145px;
+    height: 47px;
+    background-color: white;
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 28px;
+
+
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+.why-content .why-fourth .content-right img{
+    /* height: 20px; */
+    /* background-color: red; */
+    padding-right: 40px;
+    /* padding-right: 40px; */
+
+    /* width: 259.56px;
+    height: 217.01px; */
+}
+
+
+/* why-container section END */
