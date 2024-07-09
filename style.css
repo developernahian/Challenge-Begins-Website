@@ -313,16 +313,6 @@
 }
 
 
-.why-content .why-third .content-left img{
-    /* height: 20px; */
-    /* background-color: red; */
-    /* padding-right: 40px; */
-    /* padding-right: 40px; */
-
-    /* width: 259.56px;
-    height: 217.01px; */
-}
-
 /* TODO: Fourth */
 
 
@@ -330,6 +320,8 @@
     margin-top: 50px;
     /* background-color: blueviolet; */
     background-color: white;
+
+    
     border-radius: 15px;
         
     /* width: 850px; */
@@ -399,3 +391,44 @@
 
 
 /* why-container section END */
+
+
+/* TODO: inspiration section start */
+
+#inspiration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: yellow; */
+    width: 70%;
+}
+
+.inspiration-text h3{
+    margin-top: 40px;
+    /* background-color: green; */
+
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-text p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 16px;
+    font-weight: 400;
+}
+    .inspiration-video{
+        margin-top: 48px;
+        /* background-color: red; */
+        /* width: 1000px; */
+        border: 10px solid #e0e0ea;
+        border-radius: 5px;
+    }
+
+/* inspiration section END */
