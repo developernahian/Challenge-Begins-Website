@@ -9,11 +9,15 @@
     padding: 0;
 }
 
+/* TODO: Nav Section start */
+
+
+
 .nav-section{
     margin: auto;
-    background-color: green;
+    /* background-color: green; */
     height: 94px;
-    width: 1440px;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +31,7 @@
     font-weight: 800;
 }
 
-.nav-section button{
+.nav-section .download-button{
     /* display: block; */
     width: 228px;
     height: 58px;
@@ -45,3 +49,69 @@
     opacity: 0.8;
 
 }
+
+/* Nav Section END */
+
+
+/* TODO: Banner section Start */
+
+.banner-container{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 652px;
+    background-image: url("./assets/Hero-bg.png");
+}
+
+.banner-content{
+    width: 998px;
+    height: 582px;
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.banner-content img{
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 240.28px;
+    height: 240px;
+}
+
+.banner-content h2{
+    margin-top: 38px;
+    color: rgb(13, 19, 33);
+
+    font-size: 38px;
+    font-weight: 800;
+
+    
+}
+
+.banner-content p{
+    margin-top: 32px;
+    padding-left: 15px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-content .contact-button{
+    margin-top: 38px;
+    width: 208px;
+    height: 66px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    
+}
+/* Banner section End */
