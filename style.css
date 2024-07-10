@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* font-family: "Azeret Mono", monospace; */
+/* font-family: Azeret Mono; */
 
 *{
     font-family: "Azeret Mono";
@@ -10,8 +10,6 @@
 }
 
 /* TODO: Nav Section start */
-
-
 
 .nav-section{
     margin: auto;
@@ -32,22 +30,16 @@
 }
 
 .nav-section .download-button{
-    /* display: block; */
     width: 228px;
     height: 58px;
-
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-
-
     background-color: white;
-
     box-sizing: border-box;
     border: 2px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-
 }
 
 /* Nav Section END */
@@ -56,7 +48,6 @@
 /* TODO: Banner section Start */
 
 .banner-container{
-    /* background-color: yellowgreen; */
     width: 100%;
     height: 652px;
     background-image: url("./assets/Hero-bg.png");
@@ -65,11 +56,8 @@
 .banner-content{
     width: 998px;
     height: 582px;
-    /* background-color: yellow; */
-
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
     margin: 0 auto;
     align-items: center;
@@ -86,11 +74,8 @@
 .banner-content h2{
     margin-top: 38px;
     color: rgb(13, 19, 33);
-
     font-size: 38px;
     font-weight: 800;
-
-    
 }
 
 .banner-content p{
@@ -108,11 +93,8 @@
     color: rgb(255, 255, 255);
     font-size: 17px;
     font-weight: 600;
-
     border-radius: 8px;
-
     background: rgb(13, 19, 33);
-    
 }
 /* Banner section End */
 
@@ -131,13 +113,10 @@
 /* BOOKMARK: */
     background-color:rgba(13, 19, 33, 0.02);
     border-radius: 16px;
-    /* background-color: yellow; */
     width: 90%;
     height: 1150px;
-
     margin: 0 auto;
     padding: 0px 47px 0px 47px;
-    /* margin-top: 80px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,8 +124,6 @@
 
 /* TODO: First */
 .why-content .why-first{
-    /* width: 850px; */
-    /* background-color: aqua; */
     text-align: center;
     margin-top: 80px;
 }
@@ -170,12 +147,8 @@
 
 .why-content .why-second{
     margin-top: 50px;
-    /* background-color: blueviolet; */
     background-color: white;
     border-radius: 15px;
-    
-        
-    /* width: 850px; */
     width: 70%;
     height: 240px;
     display: flex;
@@ -184,13 +157,7 @@
 }
 
 .why-content .why-second .content-left{
-    /* background-color: green; */
-    /* margin-top: 30px; */
-    width: 55%
-    
-    
-    
-    
+    width: 55% 
 }
 
 .why-second .content-left h3{
@@ -205,26 +172,19 @@
     margin-top: 16px;
     color: rgb(13, 19, 33);
     opacity: 0.7;
-
     font-size: 16px;
     font-weight: 400;
-
     padding-left: 30px;
 }
 
 .why-second .content-left .learn-button{
-
     margin-top: 44px;
     width: 145px;
     height: 47px;
     background-color: white;
-    /* color: rgb(13, 19, 33); */
-    /* border: 2px solid rgb(13, 19, 33); */
     font-size: 17px;
     font-weight: 600;
     margin-left: 28px;
-
-
     box-sizing: border-box;
     border: 2px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -232,40 +192,27 @@
 }
 
 .why-content .why-second .content-right img{
-    /* height: 20px; */
-    /* background-color: red; */
     padding-right: 40px;
-    /* padding-right: 40px; */
-
-    /* width: 259.56px;
-    height: 217.01px; */
 }
 
 
     /* TODO: Third */
 
 
-        .why-content .why-third{
-        margin-top: 50px;
-        background-color: white;
-        border-radius: 15px;
-         /* background-color: blue; */
-         
-        /* width: 850px; */
-        width: 70%;
-        height: 240px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+.why-content .why-third{
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    width: 70%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
     .why-content .why-third .content-right{
-        /* background-color: green; */
-        /* margin-top: 30px; */
         width: 55%
-        
-        
     }
 
 
@@ -274,8 +221,6 @@
         color: rgba(13, 19, 33, 0.7);
         font-size: 24px;
         font-weight: 700;
-        /* padding-left: 30px; */
-        /* background-color: red; */
     }
 
 
@@ -283,29 +228,19 @@
         margin-top: 16px;
         color: rgb(13, 19, 33);
         opacity: 0.7;
-
         font-size: 16px;
         font-weight: 400;
-
-        /* padding-left: 30px; */
-        /* background-color: red; */
     }
 
 
 .why-third .content-right .learn-button{
-        /* background-color: red; */
-
     margin-top: 44px;
     width: 145px;
     height: 47px;
     background-color: white;
-    /* background-color: rgb(186, 44, 44); */
     color: rgb(13, 19, 33);
     font-size: 17px;
     font-weight: 600;
-    /* margin-left: 28px; */
-
-
     box-sizing: border-box;
     border: 2px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -318,13 +253,8 @@
 
 .why-content .why-fourth{
     margin-top: 50px;
-    /* background-color: blueviolet; */
     background-color: white;
-
-    
     border-radius: 15px;
-        
-    /* width: 850px; */
     width: 70%;
     height: 240px;
     display: flex;
@@ -333,13 +263,7 @@
     }
 
 .why-content .why-fourth .content-left{
-    /* background-color: green; */
-    /* margin-top: 30px; */
     width: 55%
-    
-    
-    
-    
 }
 
 .why-fourth .content-left h3{
@@ -380,13 +304,8 @@
 }
 
 .why-content .why-fourth .content-right img{
-    /* height: 20px; */
-    /* background-color: red; */
     padding-right: 40px;
-    /* padding-right: 40px; */
 
-    /* width: 259.56px;
-    height: 217.01px; */
 }
 
 
@@ -399,19 +318,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     text-align: center;
     margin: 0 auto;
-    /* background-color: yellow; */
     width: 70%;
 }
 
 .inspiration-text h3{
     margin-top: 40px;
-    /* background-color: green; */
-
     color: rgb(13, 19, 33);
-    /* font-family: Azeret Mono; */
     font-size: 32px;
     font-weight: 800;
 }
@@ -419,16 +333,106 @@
 .inspiration-text p{
     margin-top: 24px;
     color: rgb(13, 19, 33);
-    /* font-family: Azeret Mono; */
     font-size: 16px;
     font-weight: 400;
 }
     .inspiration-video{
         margin-top: 48px;
-        /* background-color: red; */
-        /* width: 1000px; */
         border: 10px solid #e0e0ea;
         border-radius: 5px;
     }
 
 /* inspiration section END */
+
+
+
+/* TODO: Current Section Start  */
+
+#current-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+
+#current-container .current-text{
+    margin-top: 155px;
+}
+#current-container .current-text h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#current-container .current-text p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+}
+#current-container .current-card{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card-one{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 280px;
+}
+
+.card-two{
+    width: 364px;
+    height: 280px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-three{
+    width: 364px;
+    height: 280px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-common-img{
+    margin-top: 40px;
+    width: 56px;
+    height: 56px;
+    margin-left: 32px;
+}
+
+.card-common-heading{
+    margin-top: 24px;
+    padding-left: 40px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-common-paragraph{
+    margin-top: 8px;
+    padding-left: 40px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.current-card a{
+    padding-left: 40px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Current Section End */
+
+
