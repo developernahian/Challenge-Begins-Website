@@ -460,12 +460,118 @@ button{
 
 /* Current Section End */
 
+
+
+
+
+
+
+
+
+/* TODO: Next Section start  */
+
+#next-container{
+
+    /* width: 70%; */
+    width: 1140px;
+    height: 866px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 111px;
+}
+
+#next-container .next-one{
+    /* background-color: red; */
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+
+}
+
+#next-container .next-one h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#next-container .next-one p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+#next-container .next-common{
+
+    margin-bottom: 24px;
+    /* width: 1140px; */
+    width: 90%;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 24px;
+
+    /* background-color: yellowgreen; */
+
+}
+
+.next-common{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+.next-right{
+    /* background-color: yellow; */
+    width: 941.22px;
+    height: 139px;
+    padding-left: 32px;
+
+}
+
+.next-right h4{
+    color: rgb(13, 19, 33);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.next-right p{
+    margin-top: 12px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+.next-right a{
+    width: 941.22px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Next Section END */
+
+
 /* TODO: Support Section START */
 
 #support-container{
     width: 1140px;
     height: 314px;
     margin: 0 auto;
+    margin-top: 80px;
     background-color: rgba(0,0,0,.5);
     background-image: url("./assets/handshake.jpg");
     background-blend-mode: overlay;
@@ -590,7 +696,6 @@ button{
     width: 150px;
 }
 /* Footer Section End */
-
 
 
 
