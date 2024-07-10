@@ -17,11 +17,18 @@ button{
     cursor: pointer;
 }
 
+.hover-effect:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+
+
 /* TODO: Nav Section start */
 
 .nav-section{
     margin: auto;
-    /* background-color: green; */
     height: 94px;
     width: 90%;
     display: flex;
@@ -50,12 +57,18 @@ button{
     opacity: 0.8;
 }
 
+.download-button:hover{
+    background-color: black;
+    color: white;
+}
+
 /* Nav Section END */
 
 
 /* TODO: Banner section Start */
 
 .banner-container{
+    margin-top: 8px;
     width: 100%;
     height: 652px;
     background-image: url("./assets/Hero-bg.png");
@@ -104,7 +117,14 @@ button{
     font-weight: 600;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    border: none;
 }
+.contact-button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
 /* Banner section End */
 
 /* TODO: why-container section Start */
@@ -159,7 +179,9 @@ button{
     background-color: white;
     border-radius: 15px;
     width: 70%;
-    height: 240px;
+    /* height: 240px; */
+    padding-bottom: 15px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -213,7 +235,8 @@ button{
     background-color: white;
     border-radius: 15px;
     width: 70%;
-    height: 240px;
+    /* height: 240px; */
+    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -265,7 +288,8 @@ button{
     background-color: white;
     border-radius: 15px;
     width: 70%;
-    height: 240px;
+    /* height: 240px; */
+    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -287,15 +311,12 @@ button{
     margin-top: 16px;
     color: rgb(13, 19, 33);
     opacity: 0.7;
-
     font-size: 16px;
     font-weight: 400;
-
     padding-left: 30px;
 }
 
 .why-fourth .content-left .learn-button{
-
     margin-top: 44px;
     width: 145px;
     height: 47px;
@@ -304,7 +325,6 @@ button{
     font-size: 17px;
     font-weight: 600;
     margin-left: 28px;
-
 
     box-sizing: border-box;
     border: 2px solid rgb(13, 19, 33);
@@ -347,8 +367,10 @@ button{
 }
     .inspiration-video{
         margin-top: 48px;
-        border: 10px solid #e0e0ea;
-        border-radius: 5px;
+        border: 15px solid #e0e0ea;
+        border-radius: 50px;
+        width: 100%;
+        overflow: hidden;
     }
 
 /* inspiration section END */
@@ -447,7 +469,6 @@ button{
 /* TODO: Support Section START */
 
 #support-container{
-    background-color: green;
     width: 1140px;
     height: 314px;
     margin: 0 auto;
@@ -461,7 +482,6 @@ button{
 }
 
 .support-content{
-    /* background-color: green; */
     width: 1044px;
     height: 314px;
     margin-top: 50px;
@@ -571,5 +591,9 @@ button{
     width: 150px;
 }
 /* Footer Section End */
+
+
+
+
 
 
