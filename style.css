@@ -130,8 +130,6 @@ button{
 /* TODO: why-container section Start */
 
 #why-container{
-    /* BOOKMARK: */
-    /* background-color:rgba(13, 19, 33, 0.02); */
     width: 90%;
     height: 1150px;
     margin: 0 auto;
@@ -180,8 +178,6 @@ button{
     border-radius: 15px;
     width: 70%;
     /* height: 240px; */
-    padding-bottom: 15px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -236,7 +232,6 @@ button{
     border-radius: 15px;
     width: 70%;
     /* height: 240px; */
-    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,7 +284,6 @@ button{
     border-radius: 15px;
     width: 70%;
     /* height: 240px; */
-    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -548,6 +542,11 @@ button{
     background: rgb(255, 255, 255);
     border: none;
     margin-left: 6px;
+}
+
+.submit-button:hover{
+    background-color: rgb(134, 143, 155);
+    color: white;
 }
 /* Support Section End */
 
