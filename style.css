@@ -25,7 +25,7 @@ button{
 
 
 
-/* TODO: Nav Section start */
+/* TODO: Nav Section start **************************** */
 
 .nav-section{
     margin: auto;
@@ -35,7 +35,6 @@ button{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .nav-section h2{
@@ -65,7 +64,7 @@ button{
 /* Nav Section END */
 
 
-/* TODO: Banner section Start */
+/* TODO: Banner section Start *********************** */
 
 .banner-container{
     margin-top: 8px;
@@ -82,7 +81,6 @@ button{
     text-align: center;
     margin: 0 auto;
     align-items: center;
-
 }
 
 .banner-content img{
@@ -127,7 +125,7 @@ button{
 
 /* Banner section End */
 
-/* TODO: why-container section Start */
+/* TODO: why-container section Start ************************* */
 
 #why-container{
     width: 90%;
@@ -137,7 +135,7 @@ button{
 }
 
 #why-container .why-content{
-/* BOOKMARK: */
+/* background color */
     background-color:rgba(13, 19, 33, 0.02);
     border-radius: 16px;
     width: 90%;
@@ -238,26 +236,26 @@ button{
 }
 
 
-    .why-content .why-third .content-right{
-        width: 55%
-    }
+.why-content .why-third .content-right{
+    width: 55%
+}
 
 
-    .why-third .content-right h3{
-        margin-top: 38px;
-        color: rgba(13, 19, 33, 0.7);
-        font-size: 24px;
-        font-weight: 700;
-    }
+.why-third .content-right h3{
+    margin-top: 38px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
 
 
-    .why-third .content-right p{
-        margin-top: 16px;
-        color: rgb(13, 19, 33);
-        opacity: 0.7;
-        font-size: 16px;
-        font-weight: 400;
-    }
+.why-third .content-right p{
+    margin-top: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 .why-third .content-right .learn-button{
@@ -328,14 +326,13 @@ button{
 
 .why-content .why-fourth .content-right img{
     padding-right: 40px;
-
 }
 
 
 /* why-container section END */
 
 
-/* TODO: inspiration section start */
+/* TODO: inspiration section start ********************** */
 
 #inspiration-container{
     display: flex;
@@ -343,6 +340,7 @@ button{
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    margin-top: 30px;
     width: 70%;
 }
 
@@ -371,7 +369,7 @@ button{
 
 
 
-/* TODO: Current Section Start  */
+/* TODO: Current Section Start *********************  */
 
 #current-container{
     width: 1140px;
@@ -462,30 +460,19 @@ button{
 
 
 
-
-
-
-
-
-
-/* TODO: Next Section start  */
+/* TODO: Next Section start  *********************** */
 
 #next-container{
-
-    /* width: 70%; */
     width: 1140px;
     height: 866px;
-    /* background-color: green; */
     margin: 0 auto;
     margin-top: 111px;
 }
 
 #next-container .next-one{
-    /* background-color: red; */
     margin: 0 auto;
     text-align: center;
     width: 75%;
-
 }
 
 #next-container .next-one h3{
@@ -504,9 +491,7 @@ button{
 }
 
 #next-container .next-common{
-
     margin-bottom: 24px;
-    /* width: 1140px; */
     width: 90%;
     height: 219px;
     box-sizing: border-box;
@@ -516,9 +501,6 @@ button{
     flex-direction: row;
     margin: 0 auto;
     margin-top: 24px;
-
-    /* background-color: yellowgreen; */
-
 }
 
 .next-common{
@@ -528,14 +510,10 @@ button{
 }
 
 
-
-
 .next-right{
-    /* background-color: yellow; */
     width: 941.22px;
     height: 139px;
     padding-left: 32px;
-
 }
 
 .next-right h4{
@@ -551,7 +529,6 @@ button{
     font-weight: 400;
     opacity: 0.7;
     margin-bottom: 24px;
-
 }
 
 .next-right a{
@@ -565,7 +542,7 @@ button{
 /* Next Section END */
 
 
-/* TODO: Support Section START */
+/* TODO: Support Section START  ******************** */
 
 #support-container{
     width: 1140px;
@@ -656,7 +633,7 @@ button{
 }
 /* Support Section End */
 
-/* TODO: Footer Section Start */
+/* TODO: Footer Section Start  *************************** */
 #footer-container{
     margin-top: 79px;
     width: 100%;
@@ -675,7 +652,6 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 #footer-container .footer-content .footer-text span{
@@ -686,7 +662,6 @@ button{
     font-weight: 600;
     display: flex;
     align-items: center;
-    
 }
 #footer-container .footer-content .footer-icon{
     display: flex;
@@ -697,6 +672,8 @@ button{
 }
 /* Footer Section End */
 
+
+/* Nahian */
 
 
 
